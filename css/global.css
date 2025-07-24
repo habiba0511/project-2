@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --maincolor: #ff305b;
+    --bgcolor: #333;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}

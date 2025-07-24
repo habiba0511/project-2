@@ -1,0 +1,160 @@
+@media (max-width: 1300px) {}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    nav {
+        height: 12%;
+    }
+
+    nav .container {
+        margin: 10px auto;
+    }
+
+    nav img {
+        width: 58px;
+        height: 58px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .navbutton {
+        display: flex;
+    }
+
+    .home .content h1 {
+        font-size: 55px;
+    }
+
+    .home .content h2 {
+        font-size: 23px;
+        font-weight: 300;
+    }
+
+    .home .content p {
+        font-size: 19px;
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    nav {
+        height: 12%;
+    }
+
+    nav img {
+        width: 75px;
+        height: 75px;
+    }
+
+    nav ul {
+        display: none;
+        width: 37px;
+        height: 37px;
+    }
+
+    .navbutton {
+        display: flex;
+        width: 45px;
+        height: 45px;
+    }
+
+    .home .content h1 {
+        font-size: 65px;
+    }
+
+    .home .content h2 {
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    .home .content p {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+
+    nav {
+        height: 13%;
+    }
+
+    nav img {
+        width: 85px;
+        height: 80px;
+    }
+
+    .navbutton {
+        display: flex;
+        width: 44px;
+        height: 45px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .home .content h1 {
+        font-size: 75px;
+    }
+
+    .home .content h2 {
+        font-size: 36px;
+        font-weight: 300;
+    }
+
+    .home .content p {
+        font-size: 20px;
+        height: 80px;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+
+    .navbutton {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        margin: auto;
+    }
+
+    nav ul li:last-child a {
+        width: 30px;
+    }
+
+    .home .content h1 {
+        font-size: 80px;
+    }
+
+    .home .content h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .home .content p {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+
+    .home .content p {
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: inline-flex;
+        gap: 20px;
+    }
+
+
+}
