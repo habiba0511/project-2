@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --maincolor: #ff305b;
+    --bgcolor: #151515;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: var(--bgcolor);
+}
+
+p {
+    --paragraphcolor: #c1c1c1;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.title .lines {
+    margin: 20px 0px;
+}
+
+.title .lines span {
+    display: block;
+    width: 8%;
+    height: 1px;
+    background-color: var(--maincolor);
+    margin: 4.5px auto;
+}
+
+.title .lines span:nth-of-type(2) {
+    width: 15%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Exo 2", sans-serif;
+}

@@ -1,0 +1,61 @@
+@keyframes Designer {
+
+    0% {
+        content: " | ";
+    }
+
+
+    10% {
+        content: " D |";
+    }
+
+    20% {
+        content: " De |";
+    }
+
+    30% {
+
+        content: " Des|";
+    }
+
+    50% {
+        content: " Desi|";
+    }
+
+    60% {
+        content: "Desig|";
+    }
+
+    70% {
+
+        content: "  Design |";
+    }
+
+    80% {
+        content: " Designe |";
+    }
+
+    90%,
+    100% {
+
+        content: "Designer|";
+    }
+}
+
+
+@keyframes circle {
+    0% {
+        top: -30%;
+        opacity: 1;
+    }
+
+    80% {
+        top: 40%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 40%;
+        opacity: 0;
+    }
+}
